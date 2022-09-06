@@ -1,0 +1,46 @@
+*{
+  text-align: center;
+  font-family: "Monaco", monospace;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #d9d9d9;
+}
+
+.select{
+  padding: 8px 12px ;
+  color: #333333;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.select:focus, .select:hover{
+  outline: none;
+  border: 1px solid #bbbbbb;
+}
+
+.select option{
+  background: #ffffff;
+}
+
+#lab{
+   color: black;
+  text-align: left;
+}
+
+.parking{
+  margin-top: 20px;
+  height: 70%;
+  width: auto;
+}
+
+.park{
+  margin-top: 20px;
+  height: 70%;
+  width: auto;
+}
